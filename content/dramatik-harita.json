@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Giriş",
+    "detail": "Dansçı sahneye tek başına çıkar. Ağır ve kontrollü adımlar; omuzlar dik ama beden içe dönüktür. Dünya ile bağ zayıftır.",
+    "feeling": "Bir adam değil… bir yara sahneye çıkar."
+  },
+  {
+    "title": "Uyanış",
+    "detail": "Duruş dikleşir, göğüs açılır, Efe kimliği ortaya çıkar.",
+    "feeling": "Acı vardır ama diz çökülmez."
+  },
+  {
+    "title": "İç Savaş",
+    "detail": "Yavaş ama güçlü dönüşler, ani duruşlar, zeminle sert temas.",
+    "feeling": "Suskunluk, en yüksek çığlıktır."
+  },
+  {
+    "title": "Direniş",
+    "detail": "Hareketler genişler, beden alanı büyür, ritim yükselir.",
+    "feeling": "Yıkılmadım. Sadece kök saldım."
+  },
+  {
+    "title": "Son",
+    "detail": "Hareketler yavaşlar, bakış yere ve ufka döner, enerji içe kapanır.",
+    "feeling": "Her yara, bir hikâyedir."
+  }
+]

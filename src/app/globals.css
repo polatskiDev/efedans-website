@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * Brand palette derived from EfeDans Zeybek visual identity brief:
+ * dark red/brown from the traditional Efe costume (cepken), olive-green
+ * from the olive tree logo motif, warm cream as the parchment-like base.
+ */
+:root {
+  --background: #faf5ea;
+  --foreground: #241611;
+
+  --color-brand-50: #fbf2ee;
+  --color-brand-100: #f4ded4;
+  --color-brand-200: #e6b7a4;
+  --color-brand-300: #d18b6d;
+  --color-brand-400: #a85a3e;
+  --color-brand-500: #7a2f22;
+  --color-brand-600: #5e2019;
+  --color-brand-700: #4a1a16;
+  --color-brand-800: #37130f;
+  --color-brand-900: #240d0a;
+
+  --color-olive-50: #f4f5ec;
+  --color-olive-100: #e3e6cd;
+  --color-olive-200: #c7cd9d;
+  --color-olive-300: #a7ae6f;
+  --color-olive-400: #85924c;
+  --color-olive-500: #667338;
+  --color-olive-600: #4f5a2c;
+  --color-olive-700: #3e4623;
+  --color-olive-800: #2f351b;
+  --color-olive-900: #212514;
+
+  --color-cream-50: #fffdf9;
+  --color-cream-100: #faf5ea;
+  --color-cream-200: #f1e7d2;
+  --color-cream-300: #e4d2ac;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+
+  --color-brand-50: var(--color-brand-50);
+  --color-brand-100: var(--color-brand-100);
+  --color-brand-200: var(--color-brand-200);
+  --color-brand-300: var(--color-brand-300);
+  --color-brand-400: var(--color-brand-400);
+  --color-brand-500: var(--color-brand-500);
+  --color-brand-600: var(--color-brand-600);
+  --color-brand-700: var(--color-brand-700);
+  --color-brand-800: var(--color-brand-800);
+  --color-brand-900: var(--color-brand-900);
+
+  --color-olive-50: var(--color-olive-50);
+  --color-olive-100: var(--color-olive-100);
+  --color-olive-200: var(--color-olive-200);
+  --color-olive-300: var(--color-olive-300);
+  --color-olive-400: var(--color-olive-400);
+  --color-olive-500: var(--color-olive-500);
+  --color-olive-600: var(--color-olive-600);
+  --color-olive-700: var(--color-olive-700);
+  --color-olive-800: var(--color-olive-800);
+  --color-olive-900: var(--color-olive-900);
+
+  --color-cream-50: var(--color-cream-50);
+  --color-cream-100: var(--color-cream-100);
+  --color-cream-200: var(--color-cream-200);
+  --color-cream-300: var(--color-cream-300);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--color-brand-200);
+  color: var(--color-brand-900);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}

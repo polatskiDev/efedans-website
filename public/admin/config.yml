@@ -1,0 +1,81 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Netlify Identity handles authentication; Git Gateway lets the CMS commit
+# content changes back to the repository on behalf of invited editors.
+publish_mode: editorial_workflow
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Sayfalar"
+    folder: "content/pages"
+    create: false
+    delete: false
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Açıklama", name: "description", widget: "text" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "lessons_note"
+    label: "Ders Sayfası"
+    files:
+      - label: "Derslerimiz"
+        name: "dersler"
+        file: "content/pages/dersler.md"
+        fields:
+          - { label: "Başlık", name: "title", widget: "string" }
+          - { label: "Açıklama", name: "description", widget: "text" }
+          - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "team"
+    label: "Ekip"
+    files:
+      - label: "Eğitmenler ve Dansçılar"
+        name: "team"
+        file: "content/team.json"
+        fields:
+          - label: "Eğitmenler"
+            name: "instructors"
+            widget: "list"
+          - label: "Dansçılar"
+            name: "dancers"
+            widget: "list"
+
+  - name: "repertoire"
+    label: "Repertuvar"
+    files:
+      - label: "Bölgeler ve Oyunlar"
+        name: "repertoire"
+        file: "content/repertoire.json"
+        fields:
+          - label: "Bölgeler"
+            name: "regions"
+            widget: "list"
+            fields:
+              - { label: "Bölge", name: "region", widget: "string" }
+              - label: "Oyunlar"
+                name: "dances"
+                widget: "list"
+
+  - name: "calendar"
+    label: "Proje Takvimi"
+    files:
+      - label: "Takvim"
+        name: "proje-takvimi"
+        file: "content/proje-takvimi.json"
+        fields:
+          - label: "Dönemler"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Dönem", name: "period", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - label: "Detaylar"
+                name: "details"
+                widget: "list"

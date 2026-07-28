@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+  Fallback for Netlify Forms detection.
+
+  Netlify's build bot detects forms by scanning the static HTML output for
+  `<form data-netlify="true">` tags. The real forms on /iletisim are React
+  components that render to static HTML during `next build`, which Netlify
+  should already pick up. This file is kept as a redundant, plain-HTML
+  mirror of the same two forms (same `name` + field names) in case that
+  detection ever misses the React-rendered markup. It is not linked from
+  the site navigation and is not meant to be visited by users.
+-->
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form Detection</title>
+  </head>
+  <body>
+    <form name="iletisim" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="contact" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+    <form name="kayit" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="interest" />
+      <textarea name="notes"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+  </body>
+</html>

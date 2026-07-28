@@ -1,0 +1,79 @@
+{
+  "regions": [
+    {
+      "region": "İzmir",
+    "dances": [
+      "Harmandalı",
+      "Cumaovası Yörük Ali",
+      "Menemen Kadıoğlu",
+      "Bozdağ",
+      "Kaba Hava",
+      "Kostak Ali",
+      "Kırmızı Buğday",
+      "Ötme Bülbül",
+      "Süslü Jandarma",
+      "Tire Kocaarap",
+      "Torbalı İki Parmak",
+      "Armutlu Bom",
+      "Koroğlu",
+      "Eğridere Zeybeği"
+    ]
+  },
+  {
+    "region": "Aydın",
+    "dances": [
+      "Kadıoğlu",
+      "Gayli",
+      "Bozdoğan Serenler",
+      "Tekeler Köyü",
+      "Ataköy",
+      "Kocaarap",
+      "Yağmur Yağdı",
+      "Abdal Havası",
+      "Elifoğlu",
+      "Kuruoğlu",
+      "Yörük Ali Zeybeği"
+    ]
+  },
+  {
+    "region": "Denizli",
+    "dances": ["Tavas", "Kırık Tavas", "İbrahim Usta", "Yağar Yağmur", "Gireniz Ören", "Kırlı Zeybeği"]
+  },
+  {
+    "region": "Muğla",
+    "dances": ["Kerimoğlu Zeybeği", "Çökertme Zeybeği"]
+  },
+  {
+    "region": "Manisa",
+    "dances": ["Sabah Güvende", "Kara Göze Baktıran Zeybeği"]
+  },
+  {
+    "region": "Burdur",
+    "dances": ["Serenler", "Avşar Zeybeği"]
+  },
+  {
+    "region": "Balıkesir",
+    "dances": ["Pamukçu Bengi", "Toplu Güvende Zeybeği"]
+  },
+  {
+    "region": "Antalya",
+    "dances": ["Alyazma Zeybeği"]
+  },
+  {
+    "region": "Uşak",
+    "dances": ["İslamoğlu Zeybeği"]
+  },
+  {
+    "region": "Kütahya",
+    "dances": ["Kar mı Yağdı Zeybeği"]
+  },
+  {
+    "region": "Afyonkarahisar",
+    "dances": ["Hezin Hezin Zeybeği"]
+  },
+    {
+      "region": "Çanakkale",
+      "dances": ["Kusköy Zeybeği"]
+    }
+  ]
+}
