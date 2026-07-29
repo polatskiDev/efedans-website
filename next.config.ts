@@ -39,6 +39,8 @@ const nextConfig: NextConfig = {
         images: {
           unoptimized: true,
         },
+        basePath: isProd ? '/efedans-website' : '',
+        assetPrefix: isProd ? '/efedans-website/' : '',
       },
     ];
   },
