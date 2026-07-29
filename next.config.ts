@@ -36,6 +36,9 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         headers: securityHeaders,
+        images: {
+          unoptimized: true,
+        },
       },
     ];
   },
