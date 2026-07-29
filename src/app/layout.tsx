@@ -20,6 +20,11 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
+  icons: {
+    icon: [{ url: "/images/uploads/logo.jpg", type: "image/jpeg" }],
+    shortcut: ["/images/uploads/logo.jpg"],
+    apple: [{ url: "/images/uploads/logo.jpg", type: "image/jpeg" }],
+  },
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,

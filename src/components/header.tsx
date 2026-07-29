@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { siteConfig } from "@/lib/site-config";
@@ -12,11 +13,21 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="font-display text-xl font-semibold tracking-tight text-brand-700"
+          className="flex items-center gap-3"
         >
-          {siteConfig.shortName}
-          <span className="ml-2 hidden text-sm font-sans font-normal text-olive-600 sm:inline">
-            Zeybek Kulübü
+          <Image
+            src="/images/uploads/logo.jpg"
+            alt="EfeDans logosu"
+            width={44}
+            height={44}
+            className="h-10 w-10 rounded-full object-cover sm:h-11 sm:w-11"
+            priority
+          />
+          <span className="font-display text-xl font-semibold tracking-tight text-brand-700">
+            {siteConfig.shortName}
+            <span className="ml-2 hidden text-sm font-sans font-normal text-olive-600 lg:inline">
+              Zeybek Kulübü
+            </span>
           </span>
         </Link>
 

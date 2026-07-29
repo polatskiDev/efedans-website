@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader, Section, Prose, Card } from "@/components/ui";
+import Image from "next/image";
 import { getMarkdownDoc, getJson } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -27,6 +28,22 @@ export default function EtkinliklerPage() {
       />
       <Section>
         <Prose html={doc.html} />
+      </Section>
+      <Section className="pt-0 sm:pt-2">
+        <figure className="overflow-hidden rounded-2xl border border-brand-200/70 bg-cream-50 shadow-sm">
+          <Image
+            src="/images/uploads/IMG_3980.jpeg"
+            alt="EfeDans sahne düzeni"
+            width={1600}
+            height={900}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1100px"
+            className="h-auto w-full object-cover"
+          />
+        </figure>
+        <p className="mt-3 text-sm text-brand-900/70">
+          EfeDans sahne gösterilerinde disiplinli kurgu, teknik uyum ve estetik
+          bütünlük hedeflenir.
+        </p>
       </Section>
       <Section className="bg-cream-200/60">
         <h2 className="font-display text-2xl font-bold text-brand-800">

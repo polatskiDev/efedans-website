@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Section, Container, Card } from "@/components/ui";
 import { siteConfig } from "@/lib/site-config";
@@ -43,19 +44,35 @@ export default function HomePage() {
       </section>
 
       <Section>
-        <h2 className="font-display text-2xl font-bold text-brand-800 sm:text-3xl">
-          Neden EfeDans?
-        </h2>
-        <p className="mt-4 max-w-3xl text-brand-900/80">
-          EfeDans, zeybeği sadece bir dans olarak değil, bir karakter ve sahne
-          anlatısı olarak sunar. Her performansında yalnızca figürleri değil;
-          zeybeğin taşıdığı ruhu, cesareti, asaleti, özgürlüğü, onuru ve
-          dayanışma değerlerini doğru biçimde aktarmayı hedefler.
-        </p>
-        <blockquote className="mt-6 max-w-3xl border-l-4 border-olive-400 pl-4 italic text-olive-800">
-          Neden EfeDans? Çünkü biz zeybeği sadece bir ritim olarak değil, bir
-          karakter; bir oyun olarak değil, bir ruh olarak sahneye taşıyoruz.
-        </blockquote>
+        <div className="grid gap-8 lg:grid-cols-[1.15fr_1fr] lg:items-start">
+          <div>
+            <h2 className="font-display text-2xl font-bold text-brand-800 sm:text-3xl">
+              Neden EfeDans?
+            </h2>
+            <p className="mt-4 max-w-3xl text-brand-900/80">
+              EfeDans, zeybeği sadece bir dans olarak değil, bir karakter ve
+              sahne anlatısı olarak sunar. Her performansında yalnızca
+              figürleri değil; zeybeğin taşıdığı ruhu, cesareti, asaleti,
+              özgürlüğü, onuru ve dayanışma değerlerini doğru biçimde aktarmayı
+              hedefler.
+            </p>
+            <blockquote className="mt-6 max-w-3xl border-l-4 border-olive-400 pl-4 italic text-olive-800">
+              Neden EfeDans? Çünkü biz zeybeği sadece bir ritim olarak değil,
+              bir karakter; bir oyun olarak değil, bir ruh olarak sahneye
+              taşıyoruz.
+            </blockquote>
+          </div>
+          <figure className="overflow-hidden rounded-2xl border border-brand-200/70 bg-cream-50 shadow-sm">
+            <Image
+              src="/images/uploads/IMG_3744.jpeg"
+              alt="EfeDans zeybek performansı"
+              width={1400}
+              height={1000}
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 520px"
+              className="h-full w-full object-cover"
+            />
+          </figure>
+        </div>
       </Section>
 
       <Section className="bg-cream-200/60">
