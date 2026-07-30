@@ -1,7 +1,5 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
-
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "X-Frame-Options", value: "DENY" },
@@ -35,8 +33,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? "/efedans-website" : "",
-  assetPrefix: isProd ? "/efedans-website/" : "",
+  // basePath and assetPrefix are removed because Netlify hosts at the root!
 
   async headers() {
     return [
