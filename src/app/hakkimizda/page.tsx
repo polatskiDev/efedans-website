@@ -13,6 +13,7 @@ export default function HakkimizdaPage() {
   const about = getMarkdownDoc("pages", "hakkimizda");
   const identity = getMarkdownDoc("pages", "gorsel-kimlik");
   const manifesto = getMarkdownDoc("pages", "manifesto");
+  const editor = getMarkdownDoc("pages", "editor");
 
   return (
     <>
@@ -61,6 +62,14 @@ export default function HakkimizdaPage() {
         </h2>
         <div className="mt-6">
           <Prose html={manifesto.html} />
+        </div>
+      </Section>
+      <Section>
+        <h2 className="font-display text-2xl font-bold text-brand-800">
+          Editörümüz
+        </h2>
+        <div className="mt-6">
+          <Prose html={editor.html} />
         </div>
       </Section>
     </>
