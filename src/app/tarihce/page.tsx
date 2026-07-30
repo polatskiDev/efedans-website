@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 export default function TarihcePage() {
   const history = getMarkdownDoc("pages", "tarihce");
   const efe = getMarkdownDoc("pages", "efe-kime-denir");
+  const figur = getMarkdownDoc("pages","figur-anlami");
 
   return (
     <>
@@ -28,6 +29,14 @@ export default function TarihcePage() {
         </h2>
         <div className="mt-6">
           <Prose html={efe.html} />
+        </div>
+      </Section>
+      <Section>
+        <h2 className="font-display text-2xl font-bold text-brand-800">
+          {figur.forntmatter.title as string}
+        </h2>
+        <div className="mt-6">
+          <Prose html={figur.html} />
         </div>
       </Section>
     </>
