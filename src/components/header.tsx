@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { siteConfig } from "@/lib/site-config";
+import logoImage from "../../public/images/uploads/logo.jpg"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ export function Header() {
           className="flex items-center gap-3"
         >
           <Image
-            src="/images/uploads/logo.jpg"
+            src=logoImage
             alt="EfeDans logosu"
             width={44}
             height={44}
