@@ -17,6 +17,7 @@ interface Team {
 export default function DerslerPage() {
   const lessons = getMarkdownDoc("pages", "dersler");
   const team = getJson<Team>("team.json");
+  const egitimSuresi = getMarkdownDoc("pages", "egitim-suresi");
 
   return (
     <>
@@ -25,6 +26,14 @@ export default function DerslerPage() {
         title={lessons.frontmatter.title as string}
         description={lessons.frontmatter.description as string}
       />
+      <Section>
+        <h2 className="font-display text-2xl font-bold text-brand-800">
+          Eğitim Süresi
+        </h2>
+        <div className="mt-6">
+          <Prose html={egitimSuresi.html} />
+        </div>
+      </Section>
       <Section>
         <Prose html={lessons.html} />
       </Section>
