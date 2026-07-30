@@ -1,15 +1,3 @@
 {
-  "instructors": ["Recep Arslan", "Mahmut Zendel"],
-  "dancers": [
-    "Recep Arslan",
-    "Mahmut Zendel",
-    "Ayşin Çiftçi",
-    "Ali Keskin",
-    "Kadir Fatih Sönmez",
-    "Serdar Şafak Serin",
-    "Mustafa Kemal İnce",
-    "Taner Kalkan",
-    "Ferzan Özcan",
-    "Barış Çakır"
-  ]
+  "instructors": ["Recep Arslan", "Mahmut Zendel"]
 }
