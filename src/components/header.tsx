@@ -17,7 +17,7 @@ export function Header() {
           className="flex items-center gap-3"
         >
           <Image
-            src=logoImage
+            src={logoImage}
             alt="EfeDans logosu"
             width={44}
             height={44}
