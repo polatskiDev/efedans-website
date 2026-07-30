@@ -50,16 +50,6 @@ export default function DerslerPage() {
               ))}
             </ul>
           </Card>
-          <Card>
-            <h2 className="font-display text-lg font-semibold text-brand-800">
-              Dansçılar
-            </h2>
-            <ul className="mt-3 grid grid-cols-1 gap-1 text-sm text-brand-900/80 sm:grid-cols-2">
-              {team.dancers.map((name) => (
-                <li key={name}>{name}</li>
-              ))}
-            </ul>
-          </Card>
         </div>
       </Section>
     </>
