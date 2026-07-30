@@ -3,8 +3,6 @@ title: "Derslerimiz"
 description: "Özel dersler, grup dersleri ve atölye çalışmalarımız."
 ---
 
-> **Not:** Bu sayfanın içeriği kulüp yönetiminden gelecek güncel bilgilerle (ders ücretleri, program saatleri, kayıt koşulları) tamamlanacaktır. Aşağıdaki eğitim programı genel çerçeveyi özetlemektedir.
-
 ## Eğitim Süresi
 
 Haftalık 5 ders saati atölye çalışması.
