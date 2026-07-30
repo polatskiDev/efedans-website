@@ -3,10 +3,6 @@ title: "Derslerimiz"
 description: "Özel dersler, grup dersleri ve atölye çalışmalarımız."
 ---
 
-## Eğitim Süresi
-
-Haftalık 5 ders saati atölye çalışması.
-
 ## Eğitim İçeriği
 
 - Temel zeybek figürleri
