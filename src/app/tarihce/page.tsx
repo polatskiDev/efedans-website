@@ -33,7 +33,7 @@ export default function TarihcePage() {
       </Section>
       <Section>
         <h2 className="font-display text-2xl font-bold text-brand-800">
-          {figur.forntmatter.title as string}
+          {figur.frontmatter.title as string}
         </h2>
         <div className="mt-6">
           <Prose html={figur.html} />
