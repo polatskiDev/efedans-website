@@ -23,7 +23,6 @@
     "region": "Aydın",
     "dances": [
       "Kadıoğlu",
-      "Gayli",
       "Bozdoğan Serenler",
       "Tekeler Köyü",
       "Ataköy",
@@ -37,7 +36,7 @@
   },
   {
     "region": "Denizli",
-    "dances": ["Tavas", "Kırık Tavas", "İbrahim Usta", "Yağar Yağmur", "Gireniz Ören", "Kırlı Zeybeği"]
+    "dances": ["Tavas", "Gayli", "Kırık Tavas", "İbrahim Usta", "Yağar Yağmur", "Gireniz Ören", "Kırlı Zeybeği"]
   },
   {
     "region": "Muğla",

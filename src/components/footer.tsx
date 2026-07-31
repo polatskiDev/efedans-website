@@ -1,8 +1,41 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/lib/site-config";
 
 export function Footer() {
   const year = new Date().getFullYear();
+  const socialMediaLinks = [
+    {
+      name: "Instagram",
+      iconSrc: "/images/social-media/instagram.png",
+      href: "https://www.instagram.com/efedanszeybek",
+    },
+    {
+      name: "Facebook",
+      iconSrc: "/images/social-media/facebook.png",
+      href: "https://www.facebook.com/share/1DY2skQujG/?mibextid=wwXIfr",
+    },
+    {
+      name: "X",
+      iconSrc: "/images/social-media/twitter.png",
+      href: "https://x.com/efedanszeybek",
+    },
+    {
+      name: "YouTube",
+      iconSrc: "/images/social-media/youtube.png",
+      href: "https://youtube.com/@efedanszeybekkulubu",
+    },
+    {
+      name: "TikTok",
+      iconSrc: "/images/social-media/tiktok.png",
+      href: "https://www.tiktok.com/@efedanszeybekkulubu",
+    },
+    {
+      name: "WhatsApp",
+      iconSrc: "/images/social-media/whatsapp.png",
+      href: "https://wa.me/905015738655",
+    },
+  ] as const;
 
   return (
     <footer className="border-t border-brand-200/60 bg-brand-800 text-cream-100">
@@ -47,6 +80,33 @@ export function Footer() {
               </a>
             </li>
           </ul>
+
+          <div className="mt-5">
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-olive-200">
+              Sosyal Medya
+            </h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {socialMediaLinks.map((item) => (
+                <a
+                  key={item.name}
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-600 bg-brand-700/50 transition hover:scale-105 hover:bg-brand-600/70"
+                  href={item.href}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label={`${item.name} hesabina git`}
+                  title={item.name}
+                >
+                  <Image
+                    src={item.iconSrc}
+                    alt={item.name}
+                    width={20}
+                    height={20}
+                    className="h-5 w-5 object-contain"
+                  />
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div>

@@ -3,8 +3,6 @@ title: "Gizlilik Politikası ve KVKK Aydınlatma Metni"
 description: "EfeDans Zeybek Kulübü kişisel verilerin işlenmesine ilişkin aydınlatma metni."
 ---
 
-> **Not:** Bu metin genel bir taslaktır. Kulübünüzün gerçek veri işleme süreçlerine göre gözden geçirilmesi ve gerekirse bir hukuk danışmanı tarafından onaylanması önerilir.
-
 EfeDans Zeybek Kulübü ("Kulüp") olarak, [www.efedans.com](/) internet sitesi üzerinden bizimle iletişime geçen ziyaretçilerimizin kişisel verilerinin, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") kapsamında güvenliğine önem veriyoruz.
 
 ## Toplanan Veriler
