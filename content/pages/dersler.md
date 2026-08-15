@@ -5,13 +5,13 @@ description: "Özel dersler, grup dersleri ve atölye çalışmalarımız."
 
 ## Eğitim İçeriği
 
-- Temel zeybek figürleri
-- Koreografi eğitimi
-- Sahne kullanımı
-- Grup uyumu
-- Ritmik koordinasyon
-- Geleneksel kültür eğitimi
+- Temel Zeybek Figürleri
+- Koreografi Eğitimi
+- Sahne Kullanımı
+- Grup Uyumu
+- Ritmik Koordinasyon
+- Geleneksel Kültür Eğitimi
 - Postür
-- Yönler ve figürler
+- Yönler ve Figürler
 
 Özel ders, grup dersi ve atölye çalışması seçenekleri için lütfen [iletişim](/iletisim) sayfasındaki formu doldurun; ekibimiz sizinle iletişime geçecektir.
