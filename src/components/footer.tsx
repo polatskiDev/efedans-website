@@ -82,14 +82,14 @@ export function Footer() {
           </ul>
 
           <div className="mt-5">
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-olive-200">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-olive-200">
               Sosyal Medya
             </h3>
             <div className="mt-3 flex flex-wrap gap-2">
               {socialMediaLinks.map((item) => (
                 <a
                   key={item.name}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-600 bg-brand-700/50 transition hover:scale-105 hover:bg-brand-600/70"
+                  className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-brand-600 bg-brand-700/50 transition hover:scale-105 hover:bg-brand-600/70"
                   href={item.href}
                   target="_blank"
                   rel="noreferrer noopener"
@@ -101,7 +101,7 @@ export function Footer() {
                     alt={item.name}
                     width={20}
                     height={20}
-                    className="h-5 w-5 object-contain"
+                    className="h-6 w-6 object-contain"
                   />
                 </a>
               ))}

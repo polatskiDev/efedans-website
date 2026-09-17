@@ -23,8 +23,8 @@ export function Header() {
             className="size-16 rounded-full object-cover sm:h-20 sm:w-20"
             priority
           />
-          <span className="font-display text-xl font-semibold tracking-tight text-brand-700">
-            {siteConfig.shortName}
+          <span className="font-display font-semibold tracking-tight text-brand-700">
+            <span className="text-[25.33px]">{siteConfig.shortName}</span>
             <span className="ml-2 hidden text-sm font-sans font-normal text-olive-600 lg:inline">
               Zeybek Kulübü
             </span>
