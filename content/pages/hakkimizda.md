@@ -1,6 +1,6 @@
 ---
 title: "Kulüp Hakkında"
-description: "EfeDans Zeybek Kulübü kimdir, neyi amaçlar, misyonu ve vizyonu nedir?"
+description: "Biz kimiz, Amacımız ne, Misyonumuz ve Vizyonumuz nedir, Mottomuz nedir?"
 ---
 
 ## Biz Kimiz? Neler Yapıyoruz?

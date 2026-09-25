@@ -28,7 +28,7 @@ export default function RepertuvarPage() {
           {regions.map((entry) => (
             <Card key={entry.region}>
               <h2 className="font-display text-lg font-semibold text-brand-800">
-                {entry.region}
+                {entry.region} Yöresi
               </h2>
               <ul className="mt-3 space-y-1 text-sm text-brand-900/80">
                 {entry.dances.map((dance) => (
