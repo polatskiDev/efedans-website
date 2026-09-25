@@ -16,7 +16,7 @@ export default function IletisimPage() {
       <PageHeader
         eyebrow="İletişim"
         title="Bize Ulaşın"
-        description="Sorularınız için mesaj bırakın ya da ders/atölye kaydınızı hemen başlatın."
+        description="Sorularınız için bizi arayabilir veya mesaj bırakabilirsiniz. Ders/Kursiyer kaydınızı hemen başlatın."
       />
       <Section>
         <div className="grid gap-8 lg:grid-cols-3">
@@ -63,7 +63,7 @@ export default function IletisimPage() {
       <Section className="bg-cream-200/60">
         <Card className="mx-auto max-w-2xl">
           <h2 className="font-display text-lg font-semibold text-brand-800">
-            Ders / Atölye Kayıt Talebi
+            Kursiyer Kayıt Talebi
           </h2>
           <p className="mt-1 text-sm text-brand-900/70">
             Özel ders, grup dersi veya atölye çalışmalarımız için ön kayıt

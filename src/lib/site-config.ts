@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "EfeDans Zeybek Kulübü",
   shortName: "EfeDans",
-  motto: "Gelenekten Geleceğe Zeybek.",
+  motto: "Gelenekten Geleceğe Zeybek",
   description:
     "EfeDans Zeybek Kulübü; zeybek kültürünü yaşatan, öğreten ve sahnede güçlü biçimde temsil eden bir kültür-sanat topluluğudur. Eğitimler, atölyeler ve profesyonel sahne gösterileriyle Ege'nin zeybek mirasını gelecek nesillere taşıyoruz.",
   url: "https://www.efedans.com",

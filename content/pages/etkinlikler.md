@@ -5,15 +5,15 @@ description: "EfeDans gösteri formatı, teknik gereksinimler ve etkinlik takvim
 
 ## Gösteri Formatı
 
-- Solo performans
-- Grup koreografileri
+- Solo Performans
+- Grup Koreografileri
 
 ## Teknik Gereksinimler
 
-- Uygun sahne alanı
-- Ses sistemi
-- Işık düzeni
-- LED ekran desteği
+- Uygun Sahne Alanı
+- Ses Sistemi
+- Işık Düzeni
+- LED Ekran Desteği
 - Kamera çekimine uygun sahne planı
 
 ## EfeDans Bize Ne Vadediyor?
